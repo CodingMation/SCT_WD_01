@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shop | Plants</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <header class="bg-gray-300 px-2 h-14 fixed w-full rounded-md flex items-center justify-between">
+        <div>
+            <a href="index.html">
+                <img src="./assets/img/logo.jpg" alt="" class="logo" />
+            </a>
+        </div>
+        <div class="w-0 md:w-1/2">
+            <ul class="font-semibold hidden md:flex justify-between">
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="shop.html">Shop</a></li>
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="products.html">Products</a></li>
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="fertilizer.html">Fertilizer</a></li>
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="guide.html">Guide</a></li>
+                
+            </ul>
+        </div>
+        <div class="space-x-3">
+            <a href="#search-section">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="./pages/login.html">
+                <i class="far fa-user"></i>
+            </a>
+            <a href="./pages/user.html">
+                <i class="fas fa-cart-shopping"></i>
+            </a>
+        </div>
+        <div class="ml-2 rounded-lg flex md:hidden">
+                <i class="fas fa-bars mx-2"></i>
+        </div>
+    </header>
+
+    <main class="pt-20 px-5">
+        <h1 class="text-4xl font-bold text-green-700 mb-5">Shop Plants</h1>
+        <p class="text-lg mb-5">Discover a wide range of indoor and outdoor plants to beautify your space.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="bg-green-100 p-4 rounded-lg text-center">
+            <img src="./assets/img/aloe_vera.jpg" alt="Plant" class="w-full h-48 object-cover rounded">
+            <h2 class="mt-2 font-semibold">Aloe Vera</h2>
+            <p>$10</p>
+          </div>
+          <div class="bg-green-100 p-4 rounded-lg text-center">
+            <img src="./assets/img/snake_plant.jpg" alt="Plant" class="w-full h-48 object-cover rounded">
+            <h2 class="mt-2 font-semibold">Snake Plant</h2>
+            <p>$15</p>
+          </div>
+          <div class="bg-green-100 p-4 rounded-lg text-center">
+            <img src="./assets/img/peace_lily.jpg" alt="Plant" class="w-full h-48 object-cover rounded">
+            <h2 class="mt-2 font-semibold">Peace Lily</h2>
+            <p>$20</p>
+          </div>
+        </div>
+      </main>
+</body>
+</html>

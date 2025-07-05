@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plants</title>
+    <!-- <link rel="stylesheet" href="../fontawesome/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <script src="./tailwind/tailwind.cdn.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-white">
+    <header class="bg-gray-300 px-2 h-14 fixed w-full rounded-md flex items-center justify-between">
+        <div>
+            <a href="">
+                <img src="./assets/img/logo.jpg" alt="" class="logo" />
+            </a>
+        </div>
+        <div class="w-0 md:w-1/2">
+            <ul class="font-semibold hidden md:flex justify-between">
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="shop.html">Shop</a></li>
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="products.html">Products</a></li>
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="fertilizer.html">Fertilizer</a></li>
+                <li class="hover:text-green-600 transition-colors duration-300"><a href="guide.html">Guide</a></li>
+                
+            </ul>
+        </div>
+        <div class="space-x-3">
+            <a href="#search-section">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="./pages/login.html">
+                <i class="far fa-user"></i>
+            </a>
+            <a href="./pages/user.html">
+                <i class="fas fa-cart-shopping"></i>
+            </a>
+        </div>
+        <div class="ml-2 rounded-lg flex md:hidden">
+                <i class="fas fa-bars mx-2"></i>
+        </div>
+    </header>
+    <main>
+        <section class="home h-screen flex flex-col items-start justify-center">
+            <h1 class="text-5xl my-10 py-10 px-4 font-bold">Breath Natural</h1>
+            <p class="text-2xl my-2 px-4 w-full md:w-1/2">
+                Our Environment, the world by which we live and work, is a mirror of Attitudes and Expectations
+            </p>
+            <div class="text-xl my-4 px-10 py-4 space-x-3 font-bold">
+                <a href="">
+                    <button class="bg-green-800 px-4 py-2 rounded-lg">
+                        Shop Now
+                    </button>
+                </a>
+                <a href="">
+                    <button class="bg-green px-2 py-2 rounded-lg">
+                        Explore Plants
+                        <i class="fas fa-circle-arrow-right text-lg"></i>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section id="search-section" class="bg-green-400 h-screen flex flex-col items-center justify-end" >
+            <div class="search px-14 w-full h-full space-x-3 flex items-center justify-center text-xl">
+                <div class="bg-gray-200 px-2 py-3 rounded-lg">
+                    <i class="fas fa-bars mx-2"></i>
+                </div>
+                <div class="w-full">
+                    <input type="search" placeholder="Search flowers..." class="w-full px-3 py-3 rounded-lg" />
+                </div>
+                <div class="bg-white px-2 py-3 rounded-lg ">
+                    <i class="fas fa-search mx-2"></i>
+                </div>
+            </div>
+            <div class="bg-gray-200 text-green-800 w-full px-14 h-40 flex items-center justify-between">
+                <h1 class="text-xl font-bold">Colourful New Arrivals</h1>
+                <a href="">
+                <button>View all</button>
+                </a>
+            </div>
+        </section>
+        <section class="bg-green-400 px-10 py-14 h-fit md:h-screen flex flex-wrap items-start justify-center overflow-hidden" >
+            <div class="bg-red-600 h-40 w-40 mx-14 my-14 rounded-lg">
+                <img src="./assets/img/camping.jpg" alt="" class="h-full w-full rounded-lg" />
+            </div>
+            <div class="bg-red-600 h-40 w-40 mx-14 my-14 rounded-lg">
+                <img src="./assets/img/camping.jpg" alt="" class="h-full w-full rounded-lg" />
+            </div>
+            <div class="bg-red-600 h-40 w-40 mx-14 my-14 rounded-lg">
+                <img src="./assets/img/camping.jpg" alt="" class="h-full w-full rounded-lg" />
+            </div>
+            <div class="bg-red-600 h-40 w-40 mx-14 my-14 rounded-lg">
+                <img src="./assets/img/camping.jpg" alt="" class="h-full w-full rounded-lg" />
+            </div>
+            <div class="bg-red-600 h-40 w-40 mx-14 my-14 rounded-lg">
+                <img src="./assets/img/camping.jpg" alt="" class="h-full w-full rounded-lg" />
+            </div>
+            <div class="bg-red-600 h-40 w-40 mx-14 my-14 rounded-lg">
+                <img src="./assets/img/camping.jpg" alt="" class="h-full w-full rounded-lg" />
+            </div>
+        </section>
+    <section class="bg-green-700 h-screen px-14 py-14 flex flex-col items-center justify-center" >
+        <div class="shipping w-full h-2/3 rounded-lg my-10 px-0 md:px-14 py-14 flex flex-col items-center">
+            <h1 class="text-4xl text-center font-bold">Free Shipping Services</h1>
+            <ul class="my-2 text-xl bg-green-900 md:bg-transparent text-green-400 md:text-gray-900 w-full flex flex-col items-end px-5" >
+                <li class="flex items-center space-x-3 my-2">
+                    <div class="flex items-center space-x-3">
+                        <i class="fas fa-phone text-xl"></i>
+                        <span>+91-6437342993</span>
+                    </div>
+                </li>
+                <li class="flex items-center space-x-3 my-2">
+                    <div class="flex items-center space-x-3">
+                        <i class="fas fa-message text-2xl"></i>
+                        <span>plant@gmail.com</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    </main>
+    <footer class="bg-green-400 flex flex-col items-center justify-center" >
+        <div class="bg-green-900 text-white px-14 py-14 w-full flex flex-wrap flex-row justify-evenly items-center">
+            <div class="mx-0 text-gray-300">
+                <div class="pr-5 pt-10">
+                    <a href="">
+                        <img src="./assets/img/logo.jpg" alt="" class="logo" />
+                    </a>
+                </div>
+                <div class="pt-0">
+                    <p class="w-40 flex flex-wrap">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos pariatur, nisi sint nulla quasi deserunt?
+                    </p>
+                </div>
+                <div class="py-5 space-x-3">
+                    <a href="">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h1 class="text-2xl my-5 font-bold">Our Projects</h1>
+                <ul class="text-gray-300 my-2">
+                    <a href="">
+                        <li class="my-2">Medical & health</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Education</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Technology</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Web Development</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Food & Cloths</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-2xl my-5 font-bold">Support</h1>
+                <ul class="text-gray-300 my-2">
+                    <a href="">
+                        <li class="my-2">Privacy Policy</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Conditions</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Company</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Faq & Terms</li>
+                    </a>
+                    <a href="">
+                        <li class="my-2">Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div>
+                <h1 class="text-2xl my-5 font-bold">Contact Us</h1>
+                <ul class="text-gray-300 my-2">
+                    <li class="flex items-center space-x-3 my-2">
+                        <div class="">
+                            <i class="fas fa-phone text-xl"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span>Phone Number</span>
+                            <span>+91 6437342993</span>
+                        </div>
+                    </li>
+                    <li class="flex items-center space-x-3 my-2">
+                        <div>
+                            <i class="fas fa-message text-2xl"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span>Email Address</span>
+                            <span>plant@gmail.com</span>
+                        </div>
+                    </li>
+                    <li class="flex items-center space-x-3 my-2">
+                        <div>
+                            <i class="fas fa-location text-2xl"></i>
+                        </div>
+                        <div class="flex flex-col">
+                            <span>Location</span>
+                            <span>Kolar Road, Bhopal</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./script/script.js"></script>
+</html>
